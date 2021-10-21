@@ -1,0 +1,50 @@
+.t_btn3 {
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+}
+
+div.main_table tr {
+    height: 42px;
+}
+
+div.main_table {
+    width: 100%;
+    margin-top: 25px;
+}
+
+div.main_table table {
+    width: 100%;
+}
+
+div.main_table thead tr {
+    height: 42px;
+}
+
+div.main_table th {
+    font-size: 14px;
+    font-weight: 600;
+    color: #61d2f7;
+    text-align: center;
+}
+
+div.main_table th:nth-child(1) {
+    width: 30%;
+}
+
+div.main_table th:nth-child(2) {
+    width: 35%;
+}
+
+div.main_table td {
+    color: #fff;
+    font-size: 12.8px;
+    text-align: center;
+}
+
+div.main_table tbody tr:nth-child(1),
+div.main_table tbody tr:nth-child(3),
+div.main_table tbody tr:nth-child(5) {
+    background-color: #072951;
+    box-shadow: -10px 0px 15px#034c6a inset, 10px 0px 15px #034c6a inset;
+}
